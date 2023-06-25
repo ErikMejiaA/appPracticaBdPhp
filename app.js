@@ -1,0 +1,1 @@
+import { postData } from "./view/Estudiante/regEstudiante.js";
