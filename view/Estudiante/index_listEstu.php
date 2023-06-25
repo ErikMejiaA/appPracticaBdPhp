@@ -34,7 +34,8 @@
                     <h5 class="card-header tex-center">**LISTA ESTUDIANTES**</h5>
                     <div class="card-body">
                         <?php 
-                            include_once __DIR__ . '/listEstudiante.php';
+                            //include_once __DIR__ . '/listEstudiante.php';
+                            include_once __DIR__ . '/listEstudy.php';
                         ?>
                     </div>
                 </div>

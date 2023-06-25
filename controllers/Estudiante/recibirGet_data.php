@@ -5,8 +5,8 @@
     if ($_SERVER['REQUEST_METHOD'] === 'GET') {
         // El método de solicitud es GET
         $objEstudiante = new Estudiante();
-        //echo json_encode($objEstudiante -> loadByIdData($_GET['id']));
-        echo json_encode($objEstudiante -> loadEdadMDataMayores($_GET['edad']));
+        echo json_encode($objEstudiante -> loadByIdData($_GET['idEstu']));
+        //echo json_encode($objEstudiante -> loadEdadMDataMayores($_GET['edad']));
 
     } else {
         // El método de solicitud es GET

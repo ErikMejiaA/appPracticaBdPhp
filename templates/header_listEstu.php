@@ -13,6 +13,7 @@
     <script src="/js/jquery-3.7.0.slim.js"></script>
     <script src="/js/DataTables/datatables.min.js"></script>
     <script src="/js/mainMenu.js" async></script>
+    <script src="/view/Estudiante/listEstudyMenu.js" defer></script>
     <title>APP de Practica</title>
 </head>
 
